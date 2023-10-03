@@ -1,11 +1,4 @@
-<input 
-    #input
-    (click)="selectApprenant(input.value)"
-    type="number"
-    min="0"
-    max="9"
->
-
-<p>id : {{apprenantList[Valeur].id}}, Nom: {{apprenantList[Valeur].Nom}}, Prenom: {{apprenantList[Valeur].Prenom}}, Age: {{apprenantList[Valeur].Age}}</p>
-
-
+<app-navbar></app-navbar>
+<app-jumbotron></app-jumbotron>
+<router-outlet></router-outlet>
+<app-footer></app-footer>

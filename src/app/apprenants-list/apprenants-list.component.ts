@@ -1,12 +1,12 @@
 import { Component, OnInit } from '@angular/core';
-import { APPRENANTS } from './apprenants-list/mock apprenants list';
+import { APPRENANTS } from './mock apprenants list';
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css'],
+  selector: 'app-apprenants-list',
+  templateUrl: './apprenants-list.component.html',
+  styleUrls: ['./apprenants-list.component.css']
 })
-export class AppComponent implements OnInit{
+export class ApprenantsListComponent implements OnInit {
   apprenantList = APPRENANTS;
   Valeur:number;
   statut:any;
